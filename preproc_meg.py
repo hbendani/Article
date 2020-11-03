@@ -32,7 +32,7 @@ for i in range(4,len(info)):
     countries=countries[1:] # to eliminate "#"countries
     #create abbrev
     if countries.find("_") != -1:
-        #for composed name
+        #for comp name
         if countries=="South_Africa":
             new_countries="SAf"
         if countries=="Sri_Lanka":
